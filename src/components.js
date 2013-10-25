@@ -37,6 +37,9 @@ Crafty.c('Sky', { init: function() { this.requires('Actor, Color, Solid, ky').co
 Crafty.c('Stone', { init: function() { this.requires('Actor, Color, Solid, middle_stone').color('rgb(20, 125, 40)'); } });
 Crafty.c('Wall', { init: function() { this.requires('Actor, Color, Solid, wall').color('rgb(20, 125, 40)'); } });
 Crafty.c('Torch', { init: function() { this.requires('Actor, Color, Solid, torch').color('rgb(20, 125, 40)'); } });
+Crafty.c('Earth', { init: function() { this.requires('Actor, Color, Solid, earth').color('rgb(20, 125, 40)'); } });
+Crafty.c('Hellmouth', { init: function() { this.requires('Actor, Color, Solid, hellmouth').color('rgb(20, 125, 40)'); } });
+Crafty.c('Tunnel', { init: function() { this.requires('Actor, Color, Solid, tunnel').color('rgb(20, 125, 40)'); } });
 Crafty.c('Soul', {
   init: function() {
     this.requires('Actor, Color, spr_soul,SpriteAnimation');
